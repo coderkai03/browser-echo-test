@@ -22,6 +22,14 @@ module.exports = {
                 use: ['babel-loader']
             },
             {
+                test: /\.js$/,
+                include: [
+                    join(__dirname, 'node_modules/zod'),
+                    join(__dirname, 'node_modules/event-as-promise'),
+                ],
+                use: ['babel-loader']
+            },
+            {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
             }
