@@ -9,7 +9,7 @@
         "build": "webpack --mode=production",
         "start": "webpack-dev-server",
         "lint": "eslint .",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"No tests specified\""
     },
     "dependencies": {
         "@babel/runtime": "^7.1.5",
